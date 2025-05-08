@@ -1,0 +1,130 @@
+  /* Responsive */
+  @media (max-width: 480px) {
+    #menu-toggle {
+    display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+  .ancho {
+    max-width: 100%;
+    padding: 0 10px;
+    border: none;
+  }
+
+  header, section {
+    padding: 20px 10px;
+  }
+
+  .titulo {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .subtitulo {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .info_texto {
+    width: 90%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .titulo2 {
+    font-size: 22px;
+  }
+
+  .subtitulo2 {
+    font-size: 12px;
+  }
+
+  .contenedor_servicios .encabezado h2,
+  .titulo_seccion {
+    font-size: 22px;
+  }
+
+  .info_servicios {
+    gap: 20px;
+  }
+
+  .info_servicios article {
+    font-size: 14px;
+  }
+
+  .info_servicios article img {
+    height: 160px;
+  }
+
+  .acordeon_contenido {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .acordeon_contenido img {
+    margin: 0 auto 10px;
+  }
+
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+  }
+
+  .galeria_fotos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .redes_sociales {
+    padding-top: 15px;
+  }
+
+  .bloque_contacto {
+    font-size: 13px;
+  }
+
+  .tarjeta_testimonio {
+    padding: 15px;
+  }
+
+  .tarjeta_testimonio .texto_testimonio {
+    font-size: 13px;
+  }
+
+  .video_modal iframe {
+    width: 100%;
+    height: auto;
+  }
+  .subtitulo_clientes {
+    font-size: 16px;
+  }
+
+  .carrusel_clientes img {
+    max-width: 200px;
+  }
+
+  .controles_carrusel button {
+    font-size: 24px;
+  }
+
+   .marca_footer {
+    font-size: 24px;
+  }
+
+  .submarca_footer {
+    font-size: 12px;
+  }
+
+  .redes_footer a {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+  }
+}
+
+
+
